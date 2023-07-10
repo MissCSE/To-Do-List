@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 /* -- css variables -- */
+
 :root {
   --heading-color:rgb(2, 2, 2);
   --default-font: "Source Sans Pro", sans-serif;
