@@ -9,7 +9,8 @@ A todo list app
 	- Add a TODO
 	- Delete a TODO
 	- Check task
-	- Total items count
+	- Total task count
+        - Total task left 
 - Data
 	- tasks - an array
 	- task - {done, text, id}
