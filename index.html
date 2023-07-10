@@ -1,23 +1,62 @@
-<!Doctype html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Todo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/64d6529d71.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+
+    <link rel="icon" type="image/x-icon" href="images/icon2.png" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Todo List App</h1>
+    <h1>ToDo</h1>
+
     <div id="container">
-      <input placeholder="Add a task" class="add-task" id="add" data-helloWord="asdasdas"/>
-      <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+      <!-- container for taking input -->
+      <div id="input-container">
+        <img src="images/files.svg" />
+
+        <input
+          type="text"
+          placeholder="Add Todo"
+          id="todo-text"
+          class="add-todo"
+        />
+
+        <img src="images/add.svg" alt="Add" id="add-btn" />
+      </div>
+
+      <span id="total-todos"
+        >Total tasks: <span id="todo-counter">0</span></span
+      >
+
+      <hr />
+
+      <!-- todos will be added to this unordered list -->
       <ul id="list">
         <!-- <li>
-          <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
-          <label for="task1">Buy groceries</label>
-          <img src="bin.svg" class="delete" data-id="12" />
-        </li> -->
+          <input
+            type="checkbox"
+            id="task1"
+            data-id="12"
+            class="custom-checkbox"
+          />
+          <label for="task1" class="custom-checkbox">Buy groceries</label>
+
+          <div>
+          <img src="images/delete.svg" class="delete" data-id="12" />
+        </li>
+      </div> -->
       </ul>
+
+      <hr />
+
+      <span id="todos-left"
+        >Tasks left: <span id="todos-left-counter"> 0 </span></span
+      >
     </div>
-    <script src="todo.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
