@@ -8,12 +8,12 @@
   --input-container-color: #efeef5e0;
   --todo-hover-color: #46526c7b;
   --input-color: #efeef5e0;
-  --input-border-color: rgb(178, 187, 204);
-  --todos-left-color: #020805;
+  --input-border-color: rgb(207, 209, 213);
+  --todos-left-color: rgb(2, 2, 2);
   --custom-checkBox-color: #5f6062;
-  --background-gradient: linear-gradient(to top, #cfd9df 0%, #f7f7f7 100%);
-  --container-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-   rgb(178, 187, 204) 0px 18px 36px -18px;
+  --background-gradient: linear-gradient(#f1f3f4 0%, #fcfcfc 100%);
+  --container-shadow: rgba(6, 0, 0, 0.25) 0px 30px 60px -12px,
+   rgb(232, 232, 232) 0px 18px 36px -18px;
 }
 
 * {
